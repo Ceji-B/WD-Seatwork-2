@@ -49,6 +49,19 @@
       <a href="#resources">Resources</a>
     </li>
   </ol>
+   </li>
+    <li>
+      <a href="#Documentation">Documentation</a>
+
+This is my Inspiration for this Activity it is a Portfolio type website wherein it showcases the designs the creator made. 
+<img src="Inspiration.jpg" alt="" />
+
+ This is the Wireframe of the website I've chosen wherein I dentified which is a container, image, and text. 
+<img src="Wireframe.jpg" alt="" />
+
+  
+    
+      
 </details>
 
 ---
