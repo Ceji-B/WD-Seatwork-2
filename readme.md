@@ -53,6 +53,7 @@
     <li>
       <a href="#documentation">Documentation</a>
     </li>
+  </ol> 
 <li>
 This is my Inspiration for this Activity it is a Portfolio type website wherein it showcases the designs the creator made. 
 <img src="assets/documentation/wireframe/Inspiration.jpg" alt="" />
@@ -61,7 +62,7 @@ This is my Inspiration for this Activity it is a Portfolio type website wherein 
 <img src="assets/documentation/wireframe/Wireframe.jpg" alt="" />
 
  </li> 
-</ol>    
+   
       
 </details>
 
