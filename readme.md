@@ -48,7 +48,7 @@
     <li>
       <a href="#resources">Resources</a>
     </li>
-  </ol>
+  
    </li>
     <li>
       <a href="#documentation">Documentation</a>
@@ -61,7 +61,7 @@ This is my Inspiration for this Activity it is a Portfolio type website wherein 
 <img src="assets/documentation/wireframe/Wireframe.jpg" alt="" />
 
  </li> 
-    
+</ol>    
       
 </details>
 
