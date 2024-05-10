@@ -1,0 +1,71 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+
+header,
+header * {
+    outline: 1px dashed blue;
+   
+}
+
+section.hero,
+section.hero * {
+    outline: 1px dashed red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem 5rem 0;
+    background-color: rgb(179, 254, 255);
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+header button {
+   
+    
+    padding: 0.5rem 1rem; 
+    border: none;
+    background: transparent;
+    font-weight: 600;
+
+
+    &:hover {
+        background-color: rgb(121, 244, 249);
+        transition: background-color 1s;
+
+    }
+}
+
+section.hero {
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(234, 255, 254);
+    color: rgb(22, 41, 103);
+    text-align:left;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0 1rem;
+    position: relative;
+
+}
+
+& section.hero .left {
+    width: 50%;
+    padding: 0 2rem;
+
+    h3 {
+
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+}
