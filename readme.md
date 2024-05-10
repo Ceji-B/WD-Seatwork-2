@@ -51,16 +51,16 @@
   </ol>
    </li>
     <li>
-      <a href="#Documentation">Documentation</a>
-      </li>
-
+      <a href="#documentation">Documentation</a>
+    </li>
+<li>
 This is my Inspiration for this Activity it is a Portfolio type website wherein it showcases the designs the creator made. 
 <img src="assets/documentation/wireframe/Inspiration.jpg" alt="" />
 
  This is the Wireframe of the website I've chosen wherein I dentified which is a container, image, and text. 
 <img src="assets/documentation/wireframe/Wireframe.jpg" alt="" />
 
-  
+ </li> 
     
       
 </details>
