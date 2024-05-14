@@ -73,19 +73,15 @@ This is my Inspiration for this Activity it is a Portfolio type website wherein 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is about the task we were given which was to create a resume website using the tips, and techniques taught to us by our Instructor. You'll find in my website are informations about me, along with some background information, educational attainments, and some of the works I've done.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- Single Page Website
 - Parallax transition
-- Transactional
+    Ex. Parallax Scrolling, etc.
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -126,4 +122,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
