@@ -76,8 +76,8 @@ The project is about the task we were given which was to create a resume website
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Single Page Website
-- Parallax transition
-    Ex. Parallax Scrolling, etc.
+- Resume Website
+- Information
 
 
 ### Technology
@@ -119,5 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Parallax Scrolling | I've integrated a parallax scrolling for the style of the web | [https://www.w3schools.com/howto/howto_css_parallax.asp] |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
