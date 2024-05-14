@@ -17,15 +17,28 @@ section.hero * {
     outline: 1px dashed red;
 }
 
+section.about,
+section.about * {
+    outline: 1px dashed green;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: .3rem 5rem 0;
-    background-color: rgb(179, 254, 255);
+    padding: 2rem 5rem 2rem 0;
+    background-color: #ffffff;
     align-items: center;
     position: fixed;
     z-index: 1000;
     width: 100%;
+    color: #000000;
+}
+
+header h1 {
+    
+    padding: 0 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 header button {
@@ -35,12 +48,13 @@ header button {
     border: none;
     background: transparent;
     font-weight: 600;
+    color: #000000;
 
 
     &:hover {
-        background-color: rgb(121, 244, 249);
+        background-color: rgb(173, 241, 255);
         transition: background-color 1s;
-
+        cursor: pointer;
     }
 }
 
@@ -49,10 +63,10 @@ section.hero {
     display: flex;
     align-items: center;
     height: 100vh;
-    background-color: rgb(234, 255, 254);
-    color: rgb(22, 41, 103);
+    background-color: rgb(255, 128, 128);
+    color: rgb(252, 252, 252);
     text-align:left;
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     padding: 0 1rem;
     position: relative;
@@ -69,3 +83,31 @@ section.hero {
         margin-bottom: 1rem;
     }
 }
+
+& section.hero .right {
+    width: 50%;
+    padding: 0 2rem;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+section.about {
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align:left;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 0 1rem;
+    position: relative;
+
+}
+
+
+
