@@ -121,5 +121,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Parallax Scrolling | I've integrated a parallax scrolling for the style of the web | [trykolang.com](https://www.w3schools.com/howto/howto_css_parallax.asp) |
+| Parallax Scrolling | I've integrated a parallax scrolling for the style of the web | [https://www.w3schools.com/howto/howto_css_parallax.asp] |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
