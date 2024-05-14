@@ -9,12 +9,10 @@
     <img src="./assets/img/WEb Design readme.png" alt="WEb Design readme" width="1300" height="500">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork-2</h3>
 </div>
 <!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
-</div>
+
 
 <br />
 
