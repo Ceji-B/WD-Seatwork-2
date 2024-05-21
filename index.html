@@ -3,123 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seatwork 2</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header>
-        <h1>Resume Website</h1>
-        <div class="navigations">
-            <nav>
-                <a href="#about">
-                    <p>About</p>
-                </a>
-                <a>
-                    <p>Work</p>
-                </a>
-                <a>
-                    <p>Contacts</p>
-                </a>
-            </nav>
-    </header>
-
-    <section class="Work">
+<body> 
+    <main>
+        <div class="content">
+            <section class="home">
+                <ul class="tabs">
+                    <li data-id="0">Home</li>
+                    <li data-id="1">About</li>
+                    <li data-id="2">Work</li>
+                    <li data-id="3">Contacts</li>
+                    <li data-id="4">Gallery</li>
+                </ul>
         
+                <div class="contents">
+                    <div class="box show" data-content="0">
+                        <img src="https://images.pexels.com/photos/5088009/pexels-photo-5088009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
+                        <div>
+                            <h3>Resume Website</h3>
+                            <h4> Christiane Janiel L. Banaag</h4>
+                            <p>Dynamic and forward-thinking, driven by a relentless pursuit of knowledge in the 
+                                rapidly changing and developing world of technology. Employing design thinking and critical analysis,
+                                I tackle challenges with precision and creativity, constantly evolving to lead innovation in this dynamic landscape</p>
+                        </div>
+                    </div>
+        
+                    <div class="box hide" data-content="1">
+                        <img src="https://images.pexels.com/photos/5865862/pexels-photo-5865862.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="">
+                        <div>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+        
+                    <div class="box hide" data-content="2">
+                        <img src="https://images.pexels.com/photos/3761308/pexels-photo-3761308.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+                        <div>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
 
-    </section>
+                    <div class="box hide" data-content="3">
+                            <img src="https://images.pexels.com/photos/3761308/pexels-photo-3761308.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+                            <div>
+                                <h3>Lorem ipsum dolor</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
 
-    
-    <section class="home">
-        <div class="left">
-            <h3> Christiane Janiel L. Banaag</h3>
-            <h1> Resume Website</h1>
-            <h2> IT0043L - Web Design </h2>
-            <p>
-                Dynamic and forward-thinking, driven by a relentless pursuit of knowledge in the 
-                rapidly changing and developing world of technology. Employing design thinking and critical analysis,
-                I tackle challenges with precision and creativity, constantly evolving to lead innovation in this dynamic landscape.
-            </p>
+                    <div class="box hide" data-content="4">
+                        <img src="https://images.pexels.com/photos/3761308/pexels-photo-3761308.jpeg?auto=compress&cs=tinysrgb&w=800" alt="">
+                        <div>
+                            <h3>Lorem ipsum dolor</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
-    <section class="about" id="about">
-        <div class="about">
-            <h1>About</h1>
-            <p>
-                I am a student of the FEU Institute of Technology, taking up Bachelor of Science in Information Technology. 
-                I am currently in my 1st year and I am specializing in Aniamtion and Game Development. I am a self-taught developer and I am 
-                constantly learning new things to improve my skills.
-            </p>
-        </div>
-    </section>
 
-    <section class="work">
+        
 
-      <nav class='nav'>
-        <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
-        <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
-      </nav>
-        <ul class='slider'>
-            <li class='item' style="background-image: url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')">
-              <div class='content'>
-                <h2 class='title'>"Lossless Youths"</h2>
-                <p class='description'> Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-                praesentium nisi. Id laboriosam ipsam enim.  </p>
-                <button>Read More</button>
-              </div>
-            </li>
-            <li class='item' style="background-image: url('https://i.redd.it/tc0aqpv92pn21.jpg')">
-              <div class='content'>
-                <h2 class='title'>"Estrange Bond"</h2>
-                <p class='description'> Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-                praesentium nisi. Id laboriosam ipsam enim.  </p>
-                <button>Read More</button>
-              </div>
-            </li>
-            <li class='item' style="background-image: url('https://wharferj.files.wordpress.com/2015/11/bio_north.jpg')">
-              <div class='content'>
-                <h2 class='title'>"The Gate Keeper"</h2>
-                <p class='description'> Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-                praesentium nisi. Id laboriosam ipsam enim.  </p>
-                <button>Read More</button>
-              </div>
-            </li>
-            <li class='item' style="background-image: url('https://images7.alphacoders.com/878/878663.jpg')">
-              <div class='content'>
-                <h2 class='title'>"Last Trace Of Us"</h2>
-                <p class='description'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                </p>
-                <button>Read More</button>
-              </div>
-            </li>
-            <li class='item' style="background-image: url('https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg')">
-              <div class='content'>
-                <h2 class='title'>"Urban Decay"</h2>
-                <p class='description'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                </p>
-                <button>Read More</button>
-              </div>
-            </li>
-            <li class='item' style="background-image: url('https://da.se/app/uploads/2015/09/simon-december1994.jpg')">
-              <div class='content'>
-                <h2 class='title'>"The Migration"</h2>
-                <p class='description'> Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-                praesentium nisi. Id laboriosam ipsam enim.  </p>
-                <button>Read More</button>
-              </div>
-            </li>
-        </ul>
-        
-        
-      </section>
-      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-      <script src="./assets/js/script.js"></script>
-   
+        <script src="./assets/js/script.js"></script>
+    </main>
 </body>
 </html>
