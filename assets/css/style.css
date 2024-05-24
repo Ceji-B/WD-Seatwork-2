@@ -51,10 +51,11 @@ ul {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  background-color: transparent;
 }
 
 .tabs li {
-  background-color: #212327;
+  /*background-color: #212327;*/
   width: 25%;
   height: 100%;
   display: flex;
