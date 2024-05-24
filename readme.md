@@ -78,6 +78,7 @@ The project is about the task we were given which was to create a resume website
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Single Page Website
+- Hidden Section
 - Resume Website
 - Information
 - Easy to Navigate
