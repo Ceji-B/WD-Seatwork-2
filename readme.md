@@ -53,8 +53,11 @@
     </li>
   </ol> 
 <li>
+Initial Inspiration
+
 This is my Inspiration for this Activity it is a Portfolio type website wherein it showcases the designs the creator made. 
 <img src="assets/documentation/wireframe/Inspiration.jpg" alt="" />
+
 
  This is the Wireframe of the website I've chosen wherein I dentified which is a container, image, and text. 
 <img src="assets/documentation/wireframe/Wireframe.jpg" alt="" />
@@ -68,8 +71,7 @@ This is my Inspiration for this Activity it is a Portfolio type website wherein 
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
+
 The project is about the task we were given which was to create a resume website using the tips, and techniques taught to us by our Instructor with additional add ons from what I've personally learned and found. You'll find in my website are informations about me, along with some background information, educational attainments, and some of the works I've done. 
 
 ### Key Components
@@ -78,10 +80,11 @@ The project is about the task we were given which was to create a resume website
 - Single Page Website
 - Resume Website
 - Information
+- Easy to Navigate
+
 
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
