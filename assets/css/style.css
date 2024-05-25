@@ -314,7 +314,7 @@ ul {
 }
 .pg-list > li > span {
 	flex: 0 0 100px;
-  color: white;
+  color: #ffffff;
 }
 .sb-skeleton > .skillbar {
 	position: absolute;
