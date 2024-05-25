@@ -29,3 +29,5 @@ tabs.forEach(function (tab, index) {
         contents[id].classList.add('show');
     });
 });
+
+
