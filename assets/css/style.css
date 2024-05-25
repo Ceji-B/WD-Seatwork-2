@@ -207,24 +207,24 @@ transition: all 0.3s;
 .detail-section:not(:last-of-type) {
 padding-bottom: 1rem;
 }
-.detailTitle {
+.detail-title {
 display: flex;
 align-items: center;
 }
-.detail-section > .detailContent {
+.detail-section > .detail-content {
 padding: 1.5rem;
 padding-left: 2rem;
 user-select: none;
 }
-.detail-section.edu > .detailContent {
+.detail-section.edu > .detail-content {
 padding-left: calc(1.5rem + 10px);
 }
-.titleIcon + span {
+.title-icon + span {
 font-size: 1.5rem;
 transition: all 0.3s;
 color: #cdcdcd;
 }
-.titleIcon {
+.title-icon {
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -236,43 +236,43 @@ background-color: var(--profile-theme);
 border-radius: 50%;
 transition: all 0.3s;
 }
-.titleIcon i {
+.title-icon i {
 color: white;
 line-height: 1rem;
 font-size: 1rem;
 text-align: center;
 }
-.detail-section:hover .titleIcon {
+.detail-section:hover .title-icon {
 transform: scale(1.5);
 margin-right: 1.5rem;
 }
-.detail-section:hover .titleIcon + span {
+.detail-section:hover .title-icon + span {
 letter-spacing: 1.5px;
 }
 
 /* time line block in education section */
-.timelineBlock {
+.timeline-block {
 position: relative;
 padding-left: 30px;
 }
-.timelineBlock:not(:last-of-type) {
+.timeline-block:not(:last-of-type) {
 margin-bottom: 1rem;
 }
-.timelineBlock h1 {
+.timeline-block h1 {
 font-size: 1rem;
 margin: 5px 0;
 transition: all 0.3s;
 }
-.timelineBlock p {
+.timeline-block p {
 font-size: 0.8rem;
 margin: 5px 0;
 color: #cdcdcd;
 }
-.timelineBlock time {
+.timeline-block time {
 font-size: 0.8rem;
 color: var(--color-gray-dark-2);
 }
-.timelineBlock::before {
+.timeline-block::before {
 position: absolute;
 content: '';
 width: 15px;
@@ -282,7 +282,7 @@ border-radius: 50%;
 left: -10px;
 top: -5px;
 }
-.timelineBlock::after {
+.timeline-block::after {
 position: absolute;
 content: '';
 width: 3px;
@@ -291,10 +291,10 @@ background-color: var(--timeline-circle-theme);
 left: -1px;
 top: 13px;
 }
-.timelineBlock:hover h1 {
+.timeline-block:hover h1 {
 color: var(--color-tiffany);
 }
-.timelineBlock:hover::before {
+.timeline-block:hover::before {
 animation: circle 1.2s infinite;
 }
 
