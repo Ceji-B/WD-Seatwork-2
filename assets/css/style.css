@@ -306,7 +306,9 @@ list-style: none;
 margin: 1rem 0;
 display: flex;
 align-items: center;
+justify-content: center ;
 color: #ffffff;
+font-size: large;
 }
 .sb-skeleton {
 position: relative;
@@ -415,7 +417,7 @@ letter-spacing: 1px;
 color: #ffffff;
 }
 
-/* Gallery */
+/* Portfolio */
 
 :root {
   --sizeVar: 10px;
@@ -516,13 +518,62 @@ color: #ffffff;
   }
 }
 
-  /* For the work section */
+/* For the gallery section */
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
 
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
 
+.gallery-wrap {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Add space between items */
+  justify-content: center; /* Center items horizontally */
+}
 
+.box[data-content="2"] {
+  margin-top: 50px; /* Added margin to the gallery box */
+}
 
+/* Additional styles for gallery items */
+.gallery-wrap .item {
+  flex: 1 1 calc(33.333% - 20px); /* Make items responsive and fit in a grid */
+  margin: 10px; /* Margin between items */
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Fixed height for items */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.gallery-wrap .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images cover the item box without stretching */
+}
 
+.social {
+  margin-top: 20px;
+  text-align: center;
+}
 
+.social a {
+  margin: 0 10px;
+  display: inline-block;
+}
 
-
+.social img {
+  width: 40px;
+  height: 40px;
+}
