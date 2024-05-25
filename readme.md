@@ -77,10 +77,9 @@ The project is about the task we were given which was to create a resume website
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- Single Page Website
 - Hidden Section
+- Simple Animations
 - Resume Website
-- Information
 - Easy to Navigate
 
 
@@ -125,3 +124,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Tab Interaction | Used the code for the design of the website | (https://codepen.io/robijen/pen/WNmBxWK) |
+| Cards Animation | Used the code for the design of the gallary part |(https://codepen.io/robijen/pen/WNmBxWK) ](https://codepen.io/Adir-SL/pen/dyEbOPq)|
+| Gradient Border with Hover Effect | Used the border design | (https://codepen.io/robijen/pen/WNmBxWK)](https://codepen.io/t_afif/pen/KKJedrm) |
+| RWD Resume | Used the animation and desgin for the about me part | (https://codepen.io/robijen/pen/WNmBxWK)](https://codepen.io/t_afif/pen/KKJedrm) |
