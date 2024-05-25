@@ -18,7 +18,7 @@ tabs.forEach(function (tab, index) {
         // Update the id to the index of the clicked tab
         id = index;
 
-        // Hide all content boxes
+        // Hide all content boxes 
         contents.forEach(function (box) {
             box.classList.add('hide');
             box.classList.remove('show');
