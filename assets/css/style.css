@@ -197,6 +197,7 @@ ul {
 .detail {
 	flex: 1 0 0;
 	padding: 2rem;
+  color: #ffffff;
 }
 .detail:hover > .detail-section:not(:hover) {
 	opacity: 0.3;
