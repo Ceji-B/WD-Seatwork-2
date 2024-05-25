@@ -124,6 +124,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Tab Interaction | Used the code for the design of the website | (https://codepen.io/robijen/pen/WNmBxWK) |
-| Cards Animation | Used the code for the design of the gallary part |(https://codepen.io/robijen/pen/WNmBxWK) ](https://codepen.io/Adir-SL/pen/dyEbOPq)|
+| Cards Animation | Used the code for the design of the portfolio part |(https://codepen.io/robijen/pen/WNmBxWK) ](https://codepen.io/Adir-SL/pen/dyEbOPq)|
 | Gradient Border with Hover Effect | Used the border design | (https://codepen.io/robijen/pen/WNmBxWK)](https://codepen.io/t_afif/pen/KKJedrm) |
 | RWD Resume | Used the animation and desgin for the about me part | (https://codepen.io/robijen/pen/WNmBxWK)](https://codepen.io/t_afif/pen/KKJedrm) |
+| According Image Gallery | Used the desgin as reference for the gallery | (https://codepen.io/Ceji-B/pen/yLWavNb) |
